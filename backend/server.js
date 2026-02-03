@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import connectDB from './config/db.js';
 import router from './routes/auth.js';
+import list from './routes/list.js'
 
 
 dotenv.config();
@@ -19,7 +20,8 @@ app.get('/', (req, res)=>{
 
 // register api
 app.use("/api/v1", router)
-
+// list api
+app.use("/api/v1" , list)
 
 const port = process.env.PORT ;
 app.listen(port,() =>{

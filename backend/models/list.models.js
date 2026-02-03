@@ -12,6 +12,10 @@ const listSchema = new mongoose.Schema({
     user:[{
         type : mongoose.Schema.Types.ObjectId,
         ref:"User"
-    }]
-});
-export const list = mongoose.model('List' , listSchema);
+    }],
+},
+{
+    timestamps : true
+}
+);
+export const List = mongoose.model('List' , listSchema);
