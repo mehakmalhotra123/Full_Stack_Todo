@@ -1,0 +1,68 @@
+/* full page black background */
+.auth-page {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* glass card */
+.auth-card {
+  background-color: #111;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  border: 1px solid #222;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  transition: 0.3s;
+}
+
+/* card hover glow */
+.auth-card:hover {
+  border-color: #fd7e14;
+  box-shadow: 0 0 25px rgba(253, 126, 20, 0.25);
+}
+
+/* inputs */
+.auth-input {
+  background-color: #1b1b1b !important;
+  border: 1px solid #333 !important;
+  color: white !important;
+}
+
+/* focus orange glow */
+.auth-input:focus {
+  border-color: #fd7e14 !important;
+  box-shadow: 0 0 8px rgba(253, 126, 20, 0.6) !important;
+}
+
+/* placeholder */
+.auth-input::placeholder {
+  color: #888;
+}
+
+/* orange button (reuse) */
+.btn-orange {
+  background-color:#8f4305;
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-orange:hover {
+  background-color: #ffc107;
+  transform: translateY(-2px);
+}
+
+/* link */
+.auth-link {
+  color: #fd7e14;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  color: #ffc107;
+}

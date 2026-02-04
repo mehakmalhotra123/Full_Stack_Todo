@@ -1,0 +1,48 @@
+/* black navbar */
+.custom-navbar {
+  background-color: #000;
+  border-bottom: 1px solid #222;
+  padding: 12px 0;
+}
+
+/* logo */
+.logo {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+/* normal links */
+.nav-custom {
+  color: #ddd !important;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* hover glow */
+.nav-custom:hover {
+  color: #ffc107 !important;
+}
+
+/* orange buttons */
+.btn-orange {
+  background-color: #6b3204;
+  color: white !important;
+  border-radius: 6px;
+  padding: 6px 14px;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-orange:hover {
+  background-color: #ffc107;
+  transform: translateY(-2px);
+}
+
+/* mobile spacing */
+@media (max-width: 991px) {
+  .nav-item {
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+  }
+}

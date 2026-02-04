@@ -1,0 +1,43 @@
+/* full page black background */
+.home-dark {
+  background-color: #000;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+/* hero spacing */
+.hero-section {
+  padding: 80px 0;
+}
+
+/* glowing CTA button */
+.hero-btn {
+  box-shadow: 0 0 15px rgba(253, 126, 20, 0.5);
+  transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(253, 126, 20, 0.9);
+}
+
+/* dark glass cards */
+.feature-card {
+  background-color: #121212;
+  border-radius: 12px;
+  padding: 30px;
+  color: #fff;
+  transition: 0.3s;
+  border: 1px solid #222;
+}
+
+/* hover lift */
+.feature-card:hover {
+  transform: translateY(-6px);
+  border-color: #fd7e14;
+  box-shadow: 0 0 20px rgba(253, 126, 20, 0.3);
+}
+
+.feature-card p {
+  color: #bbb;
+}

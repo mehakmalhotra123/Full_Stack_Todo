@@ -1,0 +1,30 @@
+/* solid black background */
+.footer-dark {
+  background-color: #000;
+  border-top: 1px solid #793b08;
+}
+
+/* links */
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* orange hover */
+.footer-link:hover {
+  color: #fd7e14;
+}
+
+/* sticky footer layout */
+body, #root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}

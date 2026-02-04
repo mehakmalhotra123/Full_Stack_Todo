@@ -1,0 +1,86 @@
+/* page background */
+.todo-page {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+/* input card */
+.todo-input-card {
+  background-color: #111;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #222;
+  display: flex;
+  gap: 10px;
+}
+
+/* input */
+.todo-input {
+  flex: 1;
+  background: #1b1b1b;
+  border: 1px solid #333;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.todo-input:focus {
+  outline: none;
+  border-color: #fd7e14;
+  box-shadow: 0 0 8px rgba(253, 126, 20, 0.6);
+}
+
+/* list */
+.todo-item {
+  background: #121212;
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: 0.3s;
+}
+
+.todo-item:hover {
+  border-color: #fd7e14;
+  transform: translateY(-2px);
+}
+
+/* text */
+.todo-text {
+  color: white;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #777;
+}
+
+/* icons */
+.todo-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.action-icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.edit {
+  color: #ffc107;
+}
+
+.delete {
+  color: #dc3545;
+}
+
+/* stats */
+.todo-stats {
+  text-align: right;
+}
